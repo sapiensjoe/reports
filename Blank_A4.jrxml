@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.8.0.final using JasperReports Library version 6.8.0-2ed8dfabb690ff337a5797129f2cd92902b0c87b  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="612" pageHeight="792" columnWidth="572" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="8bfc2db0-8681-4c3e-bce6-03fb8fa5b2e4">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<parameter name="pruebas" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="752" splitType="Stretch">
+			<property name="com.jaspersoft.studio.layout"/>
+			<staticText>
+				<reportElement x="40" y="82" width="100" height="19" uuid="a61da0e1-37f7-4e0c-a075-919688f2ad20"/>
+				<text><![CDATA[Apellido Paterno:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="82" width="90" height="18" uuid="46774007-6e7a-4e23-9568-b67fdc2aed73"/>
+				<text><![CDATA[Apellido Materno:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="102" width="60" height="20" uuid="e41c0ca1-13ea-4ed9-b857-2d0bdd27a58a"/>
+				<text><![CDATA[Nombre(s):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="100" width="100" height="20" uuid="ccbcc49e-2a14-4991-b841-cde4b66b3cbd"/>
+				<text><![CDATA[Fecha de Nacimiento:
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="122" width="100" height="20" uuid="af0a5c32-631e-4f5e-bcf8-10e0f4d2c47b"/>
+				<text><![CDATA[Domicilio:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="122" width="100" height="20" uuid="9ddd632d-857b-4246-aa29-1c819d73f664"/>
+				<text><![CDATA[Colonia:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="142" width="70" height="20" uuid="e8eb85d8-58e0-4376-8119-2096f043ad18"/>
+				<text><![CDATA[Código Postal:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="160" y="142" width="58" height="20" uuid="4ccf4463-7040-42fd-be31-3057d8e63440"/>
+				<text><![CDATA[Municipio:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="142" width="40" height="20" uuid="822901df-e7d6-4c1a-abda-c45a6dbbad71"/>
+				<text><![CDATA[Sexo:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="162" width="72" height="18" uuid="73026484-95bc-4c09-bd14-1a0eb858b98e"/>
+				<text><![CDATA[Teléfono Casa:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="162" width="60" height="18" uuid="40b64868-2f76-4a37-98af-99bf5503836a"/>
+				<text><![CDATA[Celular:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="162" width="98" height="18" uuid="1d9b591b-2576-49e6-b97d-aec9c4ca96d8"/>
+				<text><![CDATA[Teléfono Recados:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="182" width="72" height="20" uuid="b7cf149d-1a4b-4c83-a03a-7cdc5a38e14a"/>
+				<text><![CDATA[Estado Civil:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="202" width="100" height="20" uuid="b1773ce6-d8c3-429f-99b4-47f18a294ca7"/>
+				<text><![CDATA[Rol en la Familia:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="120" y="82" width="200" height="18" uuid="8615851a-4612-45d9-a760-7a74b524a619"/>
+				<textFieldExpression><![CDATA[$P{pruebas}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="40" y="222" width="100" height="20" uuid="d7c74dca-4054-4f15-8050-14a11ad9d2ea"/>
+				<text><![CDATA[Casa: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="242" width="170" height="20" uuid="272c039f-fc05-4ce1-ab9f-17b902d6b10e"/>
+				<text><![CDATA[Tiempo de residir en domicilio actual:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="262" width="250" height="20" uuid="d1b8f20b-33c1-4c72-81c3-300ee443fa94"/>
+				<text><![CDATA[Número de Personas que Viven en el Mismo Domicilio: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="282" width="100" height="30" uuid="02a1552e-8dfa-4d0b-9053-c4d3c47399d8"/>
+				<text><![CDATA[Nombre del Cónyuge o Concubio(a):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="283" width="120" height="29" uuid="58b82b21-e074-40c6-bc21-464b6617e4a1"/>
+				<text><![CDATA[Lugar de Trabajo del Cónyuge o Concubino(a):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="312" width="90" height="20" uuid="9bd11b50-0ca3-4ca0-b01b-1cfb57533436"/>
+				<text><![CDATA[Grado de Estudios:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="332" width="200" height="20" uuid="e2e5045c-0b17-427f-951e-eccfef94a898"/>
+				<text><![CDATA[¿Cuenta con otro crédito en este momento? ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="332" width="50" height="20" uuid="1bff92b4-3d5d-49a0-9331-a2cd1511bdef"/>
+				<text><![CDATA[Institución:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="352" width="100" height="20" uuid="91aea7be-de9a-4cfc-bf25-11dae0a38f52"/>
+				<text><![CDATA[Monto del adeudo: $]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="353" width="100" height="19" uuid="bce22a09-fc4f-4a51-8be5-6ed30ef2d01b"/>
+				<text><![CDATA[Fecha de término:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="373" width="510" height="19" uuid="1472d64b-ad17-4dbe-b982-0312fda708bb"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Datos del Crédito Solicitado y de la Actividad Productiva]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="393" width="90" height="19" uuid="f8e0939f-6dde-4204-a1d1-8075af490bb7"/>
+				<text><![CDATA[Monto Solicitado: $]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="240" y="392" width="30" height="20" uuid="0fbded02-0b20-48a0-a232-528aa564a04e"/>
+				<text><![CDATA[Plazo:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="393" width="90" height="19" uuid="b0374607-8ad3-4201-87c1-8bd7c06f7f97"/>
+				<text><![CDATA[Ciclo:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="412" width="210" height="20" uuid="6ad4f635-a513-40c3-b44b-6b6060272be9"/>
+				<text><![CDATA[Giro en que Invertirá el Crédito (Especifique):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="433" width="201" height="19" uuid="b25c6bbe-c385-4a11-9a2e-de81c44d4ba5"/>
+				<text><![CDATA[Fecha de Inicio de la Actividad Productiva:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="453" width="210" height="19" uuid="39574e03-8064-4be4-a0d1-e6b6de507da3"/>
+				<text><![CDATA[Nombre del Grupo Solidario al que Pertenece:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="472" width="160" height="20" uuid="3c270704-2728-4cf9-aff5-0de11b8346d6"/>
+				<text><![CDATA[Número de Empleos Generados:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="473" width="140" height="19" uuid="cc1b076c-0fc5-4f70-8584-e3dee25f00d1"/>
+				<text><![CDATA[Cuánto Vende a la Semana: $
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="492" width="161" height="20" uuid="b7ced4ef-272b-49fa-9b5d-69ebbadba2a8"/>
+				<text><![CDATA[Lugar del Negocio:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="492" width="141" height="20" uuid="cdd04d8c-506f-47f0-84fd-e34aedd4f8dc"/>
+				<text><![CDATA[Cuánto Gana a la Semana: $]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="514" width="510" height="18" uuid="0363df21-a490-4cc3-acf7-9b2e9a9f0e45"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Documentación Requerida]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="545" width="510" height="18" uuid="107bf6e2-c820-4d5b-8049-3fe91ecca398"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Referencias Personales (Que no sean del Grupo)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="580" width="559" height="51" uuid="c0ff121b-5b79-4972-8b41-0abdaad81c0d"/>
+				<textElement>
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Finacen, Sociedad Anónima de Capital Variable, Sociedad Financiera de Objeto Múltiple, Entidad no Regulada. Registro Federal de Contribuyentes FIN0702223I1. Domicilio: Francisco I. Madero 450, Colonia Centro, C.P. 78,000. San Luís Potosí, S.L.P. Teléfono 4448123800. Esta entidad para su constitución y operación no requiere de la autorización de la Secretaría de Hacienda y Crédito Público, en términos de lo dispuesto por el artículo 87-J de la Ley General de Organizaciones y Actividades Auxiliares del Crédito, y está sujeta a la supervisión de la Comisión Nacional Bancaria y de Valores, únicamente para efectos de lo dispuesto por el artículo 56 de la misma Ley. Aviso de Privacidad de Datos Personales consultar www.finacenenlinea.com							
+							
+							
+							
+							
+							
+]]></text>
+			</staticText>
+			<image>
+				<reportElement x="66" y="-10" width="100" height="79" uuid="edc3b087-845e-48ea-8d8e-d92baa480085"/>
+				<imageExpression><![CDATA["finacen_icon.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="186" y="0" width="330" height="59" uuid="e811d0de-618e-4ca5-a48f-924d5abf0292"/>
+				<text><![CDATA[Solicitud de Crédito
+Formato de Datos Personales.
+Para Solicitantes de Crédito Integrantes de un Grupos Solidarios.
+Aviso de Privacidad y Autorización para Solicitar Reportes de Crédito.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="email" x="186" y="-10" width="130" height="20" uuid="5932c564-eb0e-4052-8282-51adcfcc22a7">
+					<property name="com.jaspersoft.studio.element.name" value="gabo"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="46" y="-8" width="210" height="18" uuid="ea42d559-69d9-45f8-8d0a-35f8939b5206">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b112f4b1-29b7-4392-a098-5ff3d00454ff"/>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Finacen, S.A. de C.V.,Sofom, ENR.]]></text>
+			</staticText>
+			<break>
+				<reportElement x="0" y="530" width="565" height="1" uuid="22363a5c-98cb-4ef5-aed1-916b70874a7b"/>
+			</break>
+			<staticText>
+				<reportElement x="0" y="690" width="559" height="51" uuid="8614be19-5b49-4e32-9730-b721b4673a3e"/>
+				<textElement>
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Finacen, Sociedad Anónima de Capital Variable, Sociedad Financiera de Objeto Múltiple, Entidad no Regulada. Registro Federal de Contribuyentes FIN0702223I1. Domicilio: Francisco I. Madero 450, Colonia Centro, C.P. 78,000. San Luís Potosí, S.L.P. Teléfono 4448123800. Esta entidad para su constitución y operación no requiere de la autorización de la Secretaría de Hacienda y Crédito Público, en términos de lo dispuesto por el artículo 87-J de la Ley General de Organizaciones y Actividades Auxiliares del Crédito, y está sujeta a la supervisión de la Comisión Nacional Bancaria y de Valores, únicamente para efectos de lo dispuesto por el artículo 56 de la misma Ley. Aviso de Privacidad de Datos Personales consultar www.finacenenlinea.com							
+							
+							
+							
+							
+							
+]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
